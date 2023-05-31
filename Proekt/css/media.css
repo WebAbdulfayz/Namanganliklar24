@@ -1,0 +1,122 @@
+/* media 320px */
+@media (max-width:320px) {
+
+    .nav__logo {
+        width: 200px !important;
+    }
+
+    .as {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rek {
+        width: 310px;
+        height: 40px;
+    }
+
+    .corona__cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        width: 290px;
+        margin-right: 10px !important;
+    }
+
+    .corona__card {
+        width: 290px;
+    }
+
+    .card__title {
+        font-size: 15px;
+    }
+
+    .c1 {
+        border-right: unset;    
+    }
+    .c2 {
+        border-right: unset;  
+    }
+    .c3 {
+        border-right: unset; 
+    }
+    .c4 {
+        border-right: unset; 
+    }
+    .row{
+        width: 320px;
+        display: flex;
+        
+        flex-direction: column !important;
+    }
+    .row .card{
+        width: 250px !important;
+    }
+    .row .card img{
+        width: 270px !important;
+    }
+    .row .card h5{
+        margin-left: -20px;
+          width: 60%;
+    }
+    .header-notification{
+        margin: 0;
+        margin-right: 10px;
+        width: 300px;
+        display: flex;
+        row-gap: 20px;
+        flex-direction: column;
+    }
+    .not-title{
+        text-align: center;
+    }
+    .news-container{
+display: flex;
+flex-direction: column;
+    }
+    .vay{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vay .rounded-start{
+    
+       margin-left: -210px;
+    }
+    .vay h5{
+        width: 50%;
+       margin-left: 0px !important; 
+    }
+    .vay p{
+        width: 50%;
+    }
+    .news_cards {
+        width: 320px !important;
+    }
+
+    .news-btn{
+       margin: 0 auto;
+        
+        align-items: center;
+    }
+    .news-content{
+        width: 320px;
+    }
+    .news-content-cards {
+        margin-top: 20px;
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background: #F6F6F9;
+        padding: 16px 20px;
+    }
+    .news-content-cards .line {
+        width: 260px;
+    }
+    .news__content-img{
+        width:  300px;
+    }
+
+    
+}
